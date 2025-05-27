@@ -1,11 +1,11 @@
 
-# 📨 Payload CMS Form Builder – Frame Tech Backend Evaluation
+# Payload CMS Form Builder – Frame Tech Backend Evaluation
 
 This project demonstrates a working implementation of a **Payload CMS** deployed to **Vercel** with **Supabase Postgres** as the database provider. It includes a form builder integration using Payload's official plugin and allows submissions through both the admin UI and REST API.
 
 ---
 
-## 📡 Live Site
+## Live Site
 
 - **Admin Panel (Payload CMS)**: [https://payload-mocha-three.vercel.app/admin](https://payload-mocha-three.vercel.app/admin)
 
@@ -18,7 +18,7 @@ This project demonstrates a working implementation of a **Payload CMS** deployed
 
 ---
 
-## 🧰 Setup & Implementation Steps
+## Setup & Implementation Steps
 
 ### 1. Payload CMS Setup
 - Bootstrapped a Payload project with `create-payload-app`
@@ -59,9 +59,9 @@ This project demonstrates a working implementation of a **Payload CMS** deployed
 
 ---
 
-## 🚀 API Endpoints
+## API Endpoints
 
-### ✅ Fetch Form
+### Fetch Form
 
 ```http
 GET /api/forms
@@ -82,7 +82,7 @@ GET /api/forms
 
 ---
 
-### ✉️ Submit Form
+### Submit Form
 
 ```http
 POST /api/form-submissions
@@ -110,7 +110,7 @@ Content-Type: application/json
 
 ---
 
-## 🔐 Authentication & Permissions
+## Authentication & Permissions
 
 - Admin Panel access is protected with Payload's default user login system
 - Form fetch and submission endpoints are **publicly accessible**
@@ -118,7 +118,7 @@ Content-Type: application/json
 
 ---
 
-## 🛑 Multi-Tenant
+## Multi-Tenant
 
 Multi-tenant functionality was **not implemented** in this scope.
 
@@ -126,7 +126,7 @@ Multi-tenant functionality was **not implemented** in this scope.
 
 ## 📹 Loom Video
 
-Watch the demo: [🔗 Loom Link Here](#)
+Watch the demo: [🔗 Loom Link Here](https://www.loom.com/share/521766130d374b8cbd88852664fa7a85?sid=a207b711-15a7-418c-99d3-5987d514d8ce)
 
 ---
 
