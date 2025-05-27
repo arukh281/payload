@@ -11,7 +11,7 @@ This project demonstrates a working implementation of a **Payload CMS** deployed
 
 ---
 
-## 🗄️ Database Provider
+## Database Provider
 
 - **Supabase PostgreSQL**
 - Connected via environment variable `DATABASE_URL` in Vercel
